@@ -1,0 +1,21 @@
+h1 {
+  text-align:center;
+  color: darkgreen;
+  background-color: orange;
+}
+h6{
+	font-weight: bold;
+}
+/*p {
+ margin: 20px;
+}*/
+table, td,th {
+	border: .5px solid black;
+	padding: 5px;
+}
+th {
+	background: beige;
+}
+.dish {
+    margin-bottom: 10px;
+    }

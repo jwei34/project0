@@ -1,0 +1,35 @@
+$color: beige;
+
+h1 {
+  background-color: $color;
+  text-align:center;
+  color: darkgreen;
+}
+h6 {
+  background-color: $color;
+  font-weight: bold;
+}
+
+div {
+	table {
+		th {
+			font-weight:bold;
+		}
+		td {
+		}
+	}
+}
+
+p {
+ margin: 20px;
+}
+table, td,th {
+	border: .5px solid black;
+	padding: 5px;
+}
+th {
+	background: beige;
+}
+.dish {
+    margin-bottom: 10px;
+    }

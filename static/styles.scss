@@ -1,0 +1,73 @@
+$color:#E3EECD;
+$color2:#ACD1B6;
+$colordark:#40676E;
+%dishtitle {
+  font-size:30px;
+  border: 2px solid; 
+  border-image-width: 200px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Monospace;
+}
+
+.bg-light {
+  background-color: $color2!important;
+}
+
+h1 {
+  text-align: center;
+  color:$colordark;
+}
+h6 {
+  background-color:$color2;
+  font-weight: bold;
+}
+
+body {
+  background-color:$color;
+}
+
+table, td, th {
+  border: 0.5px solid black;
+  padding: 5px;
+}
+
+table {
+    th {
+      font-weight: bold;
+      background: $color2;
+      color: $colordark;
+    }
+    td {
+      background: beige;
+    }
+  }
+
+.dish {
+  margin-bottom: 10px;
+}
+
+.potatosalad {
+  @extend %dishtitle;
+  background-color: yellow;
+}
+.pasta {
+  @extend %dishtitle;
+  background-color: pink;
+}
+
+.carrotcake {
+  @extend %dishtitle;
+  background-color: orange;
+}
+
+@media (max-width: 699px) {
+  .bg-light,
+  h1,
+  h6 {
+    background-color: lightblue !important;
+  }
+  body {
+    background-color: white;
+  }
+}

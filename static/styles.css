@@ -1,0 +1,70 @@
+.carrotcake, .pasta, .potatosalad {
+  font-size: 30px;
+  border: 2px solid;
+  border-image-width: 200px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Monospace;
+}
+
+.bg-light {
+  background-color: #ACD1B6 !important;
+}
+
+h1 {
+  text-align: center;
+  color: #40676E;
+}
+
+h6 {
+  background-color: #ACD1B6;
+  font-weight: bold;
+}
+
+body {
+  background-color: #E3EECD;
+}
+
+table, td, th {
+  border: 0.5px solid black;
+  padding: 5px;
+}
+
+table th {
+  font-weight: bold;
+  background: #ACD1B6;
+  color: #40676E;
+}
+table td {
+  background: beige;
+}
+
+.dish {
+  margin-bottom: 10px;
+}
+
+.potatosalad {
+  background-color: yellow;
+}
+
+.pasta {
+  background-color: pink;
+}
+
+.carrotcake {
+  background-color: orange;
+}
+
+@media (max-width: 699px) {
+  .bg-light,
+h1,
+h6 {
+    background-color: lightblue !important;
+  }
+
+  body {
+    background-color: white;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
